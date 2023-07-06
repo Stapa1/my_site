@@ -1,0 +1,394 @@
+@import url("https://fonts.googleapis.com/css2?family=Bungee&family=Poppins:wght@200,300,400,500,600&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-bar {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  width: 100%;
+  z-index: 1;
+  position: fixed;
+  background-color: black;
+  padding-inline: 10%;
+}
+
+/* .nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between; 
+  align-items: center;
+}
+
+#item {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+}
+
+#item li {
+  list-style: none;
+  padding-right: 50px;
+}
+
+.nav a {
+  font-size: 0.9rem;
+  color: white;
+  padding-right: 40px;
+}
+
+.nav a:hover, a:active {
+  /* padding: 10px; */
+  /* background-color: white; */
+  /* color: #8693F8; */
+/* }  */
+
+.sheet {
+  padding-top: 4%;
+  background-color: #f9f9fe;
+  padding-inline: 0.5%;;
+}
+
+.sheet-main {
+  padding-inline: 10%;;
+}
+
+.sheet-img {
+  width: 100%;
+  height: 100%;
+}
+
+h6 {
+  font-family: "Poppins", sans-serif;
+  color: rgb(119, 119, 119);
+  font-size: 0.9rem;
+}
+
+h1 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  font-size: 2.5rem;
+}
+
+h2 {
+  color: rgb(119, 119, 119);
+  font-family: "Poppins", sans-serif;
+  font-weight: 200;
+  font-size: 1.2rem;
+}
+
+h3 {
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+  text-align: center;
+}
+
+h4 {
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+  font-size: 1.2rem;
+}
+
+.sheet-left-side {
+  margin: auto;
+}
+
+.card-social-media {
+  background-color: #fff;
+}
+
+.socail-logo {
+  width: 25px;
+  height: 25px;
+  margin-right: 15px;
+}
+
+.social-media-group {
+  margin: 5%;
+}
+
+.sheet-white {
+  background-color: white;
+  padding-inline: 0.5%;
+  padding-bottom: 1%;
+  padding-top: 4%;
+}
+
+h5 {
+  font-family: 'Poppins', sans-serif;
+  font-weight: 600;
+  font-size: 18px;
+}
+
+h6 {
+  padding-top: 30%;
+  font-family: 'Poppins', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  color: #928a97
+
+}
+@media only screen and (max-width: 1000px) {
+  h1 {
+    font-size: 2rem;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .sheet-img {
+    padding-top: 10%;
+  }
+}
+@media only screen and (min-width: 800px) {
+  .remove-nav {
+    width: 0;
+  }
+}
+
+
+/* experince category styles */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html {
+  font-family: 'Poppins', sans-serif;;
+}
+
+.exp_container {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 5% 1%;
+}
+
+.exp_timeline {
+  width: 80%;
+  height: auto;
+  max-width: 800px;
+  margin: 0 auto;
+  position: relative;
+}
+
+.exp_timeline ul {
+  list-style: none;
+}
+.exp_timeline ul li {
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: rgba(204, 204, 204, 0.2) 0px 10px 27px 3px;
+}
+.exp_timeline ul li:last-child {
+  margin-bottom: 0;
+}
+.exp_timeline-content p {
+  font-size: 0.8rem;
+  line-height: 30px;
+  font-weight: 300;
+}
+.exp_timeline-content .exp_date {
+  font-size: 11px;
+  font-weight: 300;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+.exp_timeline-content .exp_title {
+  font-size: 1rem;
+  font-weight: 600;
+  margin-bottom: 7px;
+  letter-spacing: 1.5px;
+}
+
+.exp_timeline-content .exp_subtitle {
+  font-size: 0.8rem;
+  color: #8693F8;
+  font-weight: 500;
+  margin-bottom: 5px;
+  letter-spacing: 2px;
+}
+
+.exp_timeline-content .exp_subtitle_small {
+  font-size: 0.8rem;
+  color: black;
+  font-weight: 300;
+  margin-bottom: 5px;
+}
+
+@media only screen and (max-width: 1000px) {
+  .exp_timeline-content .exp_title {
+    font-size: 0.9rem;
+    font-weight: 600;
+    margin-bottom: 7px;
+    letter-spacing: 2px;
+  }
+  .exp_timeline-content .exp_subtitle_small {
+    font-size: 13px;
+    color: black;
+    font-weight: 300;
+    margin-bottom: 5px;
+  }
+  .exp_timeline-content .exp_subtitle {
+    font-size: 0.9rem;
+    color: #8693F8;
+    font-weight: 500;
+    margin-bottom: 5px;
+    letter-spacing: 2px;
+  }
+}
+@media only screen and (min-width: 768px) {
+  .exp_timeline:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 52%;
+    transform: translateX(-50%);
+    width: 2px;
+    height: 100%;
+    background-color: rgb(234, 234, 255);
+  }
+  .exp_timeline ul li {
+    width: 50%;
+    position: relative;
+    margin-bottom: 50px;
+  }
+  .exp_timeline ul li:nth-child(odd) {
+    float: left;
+    clear: right;
+    transform: translateX(-30px);
+    border-radius: 20px 0px 20px 20px;
+  }
+  .exp_timeline ul li:nth-child(even) {
+    float: right;
+    clear: left;
+    transform: translateX(30px);
+    border-radius: 0px 20px 20px 20px;
+  }
+  .exp_timeline ul li::before {
+    content: "";
+    position: absolute;
+    height: 20px;
+    width: 20px;
+    border-radius: 50%;
+    background-color: rgb(132, 144, 255);
+    top: 0px;
+  }
+  .exp_timeline ul li:nth-child(odd)::before {
+    transform: translate(50%, -50%);
+    right: -30px;
+  }
+  .exp_timeline ul li:nth-child(even)::before {
+    transform: translate(-50%, -50%);
+    left: -30px;
+  }
+  .exp_timeline-content .date {
+    position: absolute;
+    top: -30px;
+  }
+  .exp_timeline ul li:hover::before {
+    background-color: #78BCF7;
+  }
+}
+
+
+
+/* heading styles */
+.main-subheading {
+  font-size: 1.5rem;
+  color: rgb(34, 34, 34);
+  font-weight: 600;
+  text-align: center;
+}
+
+.hr-subheading {
+  width: 5%;
+  color: rgb(109, 124, 255);
+  margin: auto;
+}
+
+
+/* organisations */
+.org_style {
+  height: 220px;
+  padding: 20px;
+  background-color: rgb(255, 255, 255);
+  color: black;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  box-shadow: rgba(204, 204, 204, 0.2) 0px 10px 27px 3px
+}
+
+.org_link {
+  font-size: 0.7rem;
+  color: rgb(132, 144, 255);
+  text-decoration: underline;
+  text-align: center;
+}
+
+
+/* skills */
+.skill {
+  background-color: rgb(221, 221, 221);
+  border-color: rgb(238, 238, 238);
+  border-radius: 12px;
+  border-style: solid;
+  box-sizing: border-box;
+  display: block;
+  width: 100%;
+}
+
+.sb_bar {
+  background-image: -webkit-linear-gradient(
+    0deg,
+    rgb(132, 144, 255) 0%,
+    rgb(98, 189, 252) 100%
+  );
+  border-radius: 12px;
+  height: 6px;
+  width: 453.890625px;
+}
+
+.exp_subtitle {
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+  letter-spacing: 2px;
+}
+
+.project_block {
+  padding: 10px; 
+  height: 100%;
+}
+
+.project_title {
+  text-align: center;
+  margin-top: 10px;
+}
+
+.project_img {
+  width: 100%; 
+  border-radius: 12px;
+}
+
+.project_link {
+  text-align: right;
+}
